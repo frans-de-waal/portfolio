@@ -24,6 +24,14 @@
   - PDF
 - Contact
 
+## TODO
+
+- Domain
+  - https://domains.google.com/registrar/fransdewaal.dev?hl=en
+- SSL cert
+  - https://support.google.com/domains/answer/7630973
+  - https://letsencrypt.org/getting-started/
+
 ## Development
 
 First, run the development server:
