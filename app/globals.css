@@ -1,71 +1,88 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 300;
-  src: url('../public/fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
-       url('../public/fonts/poppins/poppins-light-webfont.woff') format('woff');
+  src: url("../public/fonts/poppins/poppins-light-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/poppins/poppins-light-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
-  src: url('../public/fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
-       url('../public/fonts/poppins/poppins-regular-webfont.woff') format('woff');
+  src: url("../public/fonts/poppins/poppins-regular-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/poppins/poppins-regular-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
-  src: url('../public/fonts/poppins/poppins-medium-webfont.woff2') format('woff2'),
-       url('../public/fonts/poppins/poppins-medium-webfont.woff') format('woff');
+  src: url("../public/fonts/poppins/poppins-medium-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/poppins/poppins-medium-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
-  src: url('../public/fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'),
-       url('../public/fonts/poppins/poppins-semibold-webfont.woff') format('woff');
+  src: url("../public/fonts/poppins/poppins-semibold-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/poppins/poppins-semibold-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 700;
-  src: url('../public/fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),
-       url('../public/fonts/poppins/poppins-bold-webfont.woff') format('woff');
+  src: url("../public/fonts/poppins/poppins-bold-webfont.woff2") format("woff2"),
+    url("../public/fonts/poppins/poppins-bold-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: "Zilla Slab";
   font-weight: 300;
-  src: url('../public/fonts/zilla-slab/zillaslab-light-webfont.woff2') format('woff2'),
-       url('../public/fonts/zilla-slab/zillaslab-light-webfont.woff') format('woff');
+  src: url("../public/fonts/zilla-slab/zillaslab-light-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/zilla-slab/zillaslab-light-webfont.woff")
+      format("woff");
 }
 
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: "Zilla Slab";
   font-weight: 400;
-  src: url('../public/fonts/zilla-slab/zillaslab-regular-webfont.woff2') format('woff2'),
-       url('../public/fonts/zilla-slab/zillaslab-regular-webfont.woff') format('woff');
+  src: url("../public/fonts/zilla-slab/zillaslab-regular-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/zilla-slab/zillaslab-regular-webfont.woff")
+      format("woff");
 }
 
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: "Zilla Slab";
   font-weight: 500;
-  src: url('../public/fonts/zilla-slab/zillaslab-medium-webfont.woff2') format('woff2'),
-       url('../public/fonts/zilla-slab/zillaslab-medium-webfont.woff') format('woff');
+  src: url("../public/fonts/zilla-slab/zillaslab-medium-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/zilla-slab/zillaslab-medium-webfont.woff")
+      format("woff");
 }
 
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: "Zilla Slab";
   font-weight: 600;
-  src: url('../public/fonts/zilla-slab/zillaslab-semibold-webfont.woff2') format('woff2'),
-       url('../public/fonts/zilla-slab/zillaslab-semibold-webfont.woff') format('woff');
+  src: url("../public/fonts/zilla-slab/zillaslab-semibold-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/zilla-slab/zillaslab-semibold-webfont.woff")
+      format("woff");
 }
 
 @font-face {
-  font-family: 'Zilla Slab';
+  font-family: "Zilla Slab";
   font-weight: 700;
-  src: url('../public/fonts/zilla-slab/zillaslab-bold-webfont.woff2') format('woff2'),
-       url('../public/fonts/zilla-slab/zillaslab-bold-webfont.woff') format('woff');
+  src: url("../public/fonts/zilla-slab/zillaslab-bold-webfont.woff2")
+      format("woff2"),
+    url("../public/fonts/zilla-slab/zillaslab-bold-webfont.woff") format("woff");
+}
+
+:root {
+  --header-height: 5rem;
 }
 
 * {
@@ -81,8 +98,8 @@ body {
 }
 
 body {
-  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
+  font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -97,6 +114,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Zilla Slab', Georgia, 'Times New Roman', Times, serif;
-  font-weight: 600;
+  font-family: "Zilla Slab", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
 }
