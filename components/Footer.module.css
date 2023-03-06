@@ -1,0 +1,12 @@
+.container {
+  height: var(--footer-height);
+  border-style: solid;
+  border-color: var(--c-black);
+  border-width: 0;
+  border-top-width: 1px;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -83,6 +83,7 @@
 
 :root {
   --header-height: 100px;
+  --footer-height: 70px;
 
   --c-light-blue: #f2f4f4;
   --c-black: #252525;

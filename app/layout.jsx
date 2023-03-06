@@ -1,5 +1,6 @@
 import "./globals.css";
-import Header from "./Header";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "./layout.module.css";
 
 export default function RootLayout({ children }) {
@@ -7,8 +8,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <body>
-        <Header>Top Nav</Header>
+        <Header />
         <main className={styles.main}>{children}</main>
+        <Footer />
       </body>
     </html>
   );
