@@ -1,0 +1,51 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero {
+  min-height: 50vh;
+  padding: 2rem 0;
+  border-style: solid;
+  border-color: var(--c-blue);
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+.hero h2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.hero h1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 135%;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  gap: 3rem;
+}
+
+.circle {
+  background-color: var(--c-blue);
+  border-radius: 200px;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  padding-top: 2rem;
+}
+
+.image {
+  object-fit: contain;
+  object-position: 35% 50%;
+}
