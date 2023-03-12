@@ -69,3 +69,13 @@
   width: var(--circle-size);
   height: var(--circle-size);
 }
+
+.projectList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}

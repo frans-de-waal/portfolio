@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30ch;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--c-grey);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.name {
+  margin-bottom: 2rem;
+}
+
+.summary {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.bottomRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.type,
+.tech {
+  font-size: var(--fs-300);
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid var(--c-accent);
+  color: var(--c-accent);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
