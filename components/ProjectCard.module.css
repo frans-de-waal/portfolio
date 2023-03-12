@@ -10,8 +10,14 @@
   border-radius: 3px;
 }
 
+.container:hover {
+  background-color: var(--c-accent-light);
+  border-color: var(--c-accent);
+}
+
 .name {
   margin-bottom: 2rem;
+  color: var(--c-accent);
 }
 
 .summary {

@@ -26,6 +26,7 @@
   font-family: var(--ff-copy);
   font-weight: 700;
   font-size: var(--fs-700);
+  color: var(--c-accent);
 }
 
 .navList {
@@ -81,6 +82,12 @@
   font-family: var(--ff-accent);
   font-weight: 700;
   font-size: var(--fs-600);
+}
+
+@media (min-width: 900px) {
+  .navItem {
+    color: var(--c-accent);
+  }
 }
 
 .navItem:hover {

@@ -88,6 +88,7 @@
   --c-white: #f2f4f4;
   --c-black: #252525;
   --c-accent: #0f496a;
+  --c-accent-light: #c5d7e2;
   --c-grey: #ccc;
 
   /* --bp-min: 900px; TODO: find a way to use custom properties in media queries, see: https://bholmes.dev/blog/alternative-to-css-variable-media-queries/ */
