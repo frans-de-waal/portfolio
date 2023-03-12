@@ -1,37 +1,86 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: var(--header-height);
   border-style: solid;
-  border-color: var(--c-blue);
+  border-color: var(--c-accent);
   border-width: 0;
   border-bottom-width: 1px;
-  padding: 0 2rem;
+  padding: 0 1rem;
+  background-color: var(--c-white);
+}
+
+@media (min-width: 900px) {
+  .header {
+    padding: 0 2rem;
+  }
 }
 
 .title {
-  font-family: "Zilla Slab";
+  font-family: var(--ff-copy);
   font-weight: 700;
-  font-size: 48px;
+  font-size: var(--fs-700);
 }
 
 .navList {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 2rem;
   list-style: none;
+}
+
+@media (max-width: 899px) {
+  .navList {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    background-color: var(--c-accent);
+    color: var(--c-white);
+    padding: 1rem 2rem;
+    transform: translateX(100%);
+    transition: transform ease-in-out 0.2s;
+    border: 0;
+    border-left: 2px solid var(--c-white);
+    border-bottom: 2px solid var(--c-white);
+  }
+
+  .navList.open {
+    transform: translateX(0);
+  }
+}
+
+.menuButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .menuButton {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style: none;
+  }
 }
 
 .navItem {
   border-style: solid;
   border-width: 2px 0;
   border-color: transparent;
-  font-family: "Zilla Slab";
+  font-family: var(--ff-accent);
   font-weight: 700;
-  font-size: 32px;
+  font-size: var(--fs-600);
 }
 
 .navItem:hover {

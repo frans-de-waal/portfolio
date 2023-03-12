@@ -1,7 +1,7 @@
 .container {
   height: var(--footer-height);
   border-style: solid;
-  border-color: var(--c-blue);
+  border-color: var(--c-accent);
   border-width: 0;
   border-top-width: 1px;
   padding: 0 2rem;

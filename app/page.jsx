@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import portrait from "../public/images/frans-transparent.png";
+import portrait from "../public/images/frans-transparent-2.png";
 
 export default function Home() {
   return (
     <>
-      <div className={`${styles.row} ${styles.hero}`}>
+      <div className={styles.hero}>
         <div className={styles.col}>
           <h2>
             Hi, my name is <strong>Frans</strong>.
@@ -26,9 +26,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className={styles.row}>
-        <h2>Featured Projects</h2>
-      </div>
+      <h2>Featured Projects</h2>
     </>
   );
 }
