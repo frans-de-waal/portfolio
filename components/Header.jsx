@@ -1,16 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import styles from "./Header.module.css";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    console.log("menuOpen", menuOpen);
-  }, [menuOpen]);
 
   return (
     <header className={styles.header}>
