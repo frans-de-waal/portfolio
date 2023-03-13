@@ -9,6 +9,7 @@
   border-color: var(--c-grey);
   padding: 1rem;
   border-radius: 3px;
+  background-color: white;
 }
 
 .container:hover {
@@ -26,6 +27,11 @@
 .image {
   object-fit: contain;
   object-position: center;
+  filter: grayscale(1);
+}
+
+.container:hover .image {
+  filter: unset;
 }
 
 .summary {
