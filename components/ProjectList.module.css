@@ -1,0 +1,22 @@
+.list {
+  align-self: center;
+  list-style: none;
+  padding: 1rem 0;
+  padding-top: 2rem;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 30ch;
+  grid-template-rows: auto;
+}
+
+@media (min-width: 700px) {
+  .list {
+    grid-template-columns: repeat(2, 30ch);
+  }
+}
+
+@media (min-width: 1000px) {
+  .list {
+    grid-template-columns: repeat(3, 30ch);
+  }
+}

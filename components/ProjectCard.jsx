@@ -17,6 +17,7 @@ export default function ProjectCard({
       <Link href={`/projects/${urlKey}`} className={styles.container}>
         <h3 className={styles.name}>{name}</h3>
         <Image
+          className={styles.image}
           src={image}
           width={200}
           height={200}

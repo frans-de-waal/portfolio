@@ -1,0 +1,11 @@
+.controls {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  padding: 0.5rem 1rem;
+}
