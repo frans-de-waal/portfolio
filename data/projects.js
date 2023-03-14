@@ -5,13 +5,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://www.ceramic.co.za/",
     },
     image: "/images/projects/ceramic-industries-logo.png",
     summary: "Ceramic Industries Catalogue Website And Client Portal",
-    tech: "React",
+    technologies: ["React"],
   },
   italtile: {
     name: "Italtile Corporate Website",
@@ -19,13 +19,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://italtile-staging.vectra.cloud/",
     },
     image: "/images/projects/italtile.png",
     summary: "",
-    tech: "React",
+    technologies: ["React"],
   },
   leatt: {
     name: "Leatt Ecommerce Website",
@@ -33,13 +33,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://www.leatt.com/",
     },
     image: "/images/projects/leatt.png",
     summary: "",
-    tech: "Vue.js",
+    technologies: ["Vue.js"],
   },
   "leatt-corporate": {
     name: "Leatt Corporate Website",
@@ -47,13 +47,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://leatt-corp.herokuapp.com/",
     },
     image: "/images/projects/leatt.png",
     summary: "",
-    tech: "React",
+    technologies: ["React"],
   },
   sbs: {
     name: "SAFAL Building Systems Website",
@@ -61,13 +61,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://www.safalbuildingsystems.com/",
     },
     image: "/images/projects/safal.jpg",
     summary: "",
-    tech: "Vue.js",
+    technologies: ["Vue.js"],
   },
   superfert: {
     name: "Superfert Website",
@@ -75,13 +75,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://superfert.herokuapp.com/",
     },
     image: "/images/projects/superfert.png",
     summary: "",
-    tech: "React",
+    technologies: ["React"],
   },
   vectra: {
     name: "Vectra Website",
@@ -89,13 +89,13 @@ const PROJECTS = {
     role: "Technical lead and senior frontend developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://vectra-website.herokuapp.com/",
     },
     image: "/images/projects/placeholder.svg",
     summary: "",
-    tech: "React",
+    technologies: ["React"],
   },
   opfc: {
     name: "OPFC Supporter App",
@@ -103,7 +103,7 @@ const PROJECTS = {
     role: "Technical team lead and mobile app developer",
     type: "Professional",
     links: {
-      andriod:
+      android:
         "https://play.google.com/store/apps/details?id=com.orlandopiratesfc.mobileapp",
       ios: "https://apps.apple.com/za/app/orlando-pirates-official-app/id1469888955",
       web: "",
@@ -111,7 +111,7 @@ const PROJECTS = {
     image: "/images/projects/opfc.svg",
     summary:
       "The official supporter app for Orlando Pirates, one of South Africa's oldest football clubs.",
-    tech: "React Native",
+    technologies: ["React Native", "PHP"],
   },
   acvehicles: {
     name: "AC Vehicles",
@@ -119,7 +119,7 @@ const PROJECTS = {
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
     links: {
-      andriod:
+      android:
         "https://play.google.com/store/apps/details?id=com.comune.nabupax",
       ios: "",
       web: "",
@@ -127,7 +127,7 @@ const PROJECTS = {
     image: "/images/projects/autoconnect.webp",
     summary:
       "AC Vehicles is the heart of the Motor body repair industry, with cutting edge skills that allows AC Vehicles to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AC Vehicles has the necessary solution for you!",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   acplumbing: {
     name: "AC Plumbing & Electrical",
@@ -135,7 +135,7 @@ const PROJECTS = {
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
     links: {
-      andriod:
+      android:
         "https://play.google.com/store/apps/details?id=com.comune.nabupax",
       ios: "",
       web: "",
@@ -143,7 +143,7 @@ const PROJECTS = {
     image: "/images/projects/acplumbing.webp",
     summary:
       "AutoConnect is the heart of the plumbing and electrical industry, with cutting edge skills that allows AutoConnect to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AutoConnect has the necessary solution for you!",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "secure-legacy": {
     name: "Secure Legacy",
@@ -151,7 +151,7 @@ const PROJECTS = {
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
     links: {
-      andriod:
+      android:
         "https://play.google.com/store/apps/details?id=com.comune.securelegacy",
       ios: "",
       web: "",
@@ -159,7 +159,7 @@ const PROJECTS = {
     image: "/images/projects/secure-legacy.webp",
     summary:
       "At Secure Legacy, our dedicated, experienced specialists will assist you with the very personal issues of estate planning, and drawing up wills and trusts. We are compassionate and respectful in dealing with the administration of deceased estates. If you are serious about protecting your wealth and securing the wellbeing of your family, let us assist you with these critical issues!",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   // pipe: {
   //   name: "Pipe: Process Automation System",
@@ -167,13 +167,13 @@ const PROJECTS = {
   //   role: "Technical team lead, mobile app and full stack developer",
   //   type: "Professional",
   //   links: {
-  //     andriod: "",
+  //     android: "",
   //     ios: "",
   //     web: "",
   //   },
   //   image: "/images/projects/placeholder.svg",
   //   summary: "Roadlab, Secure Lagacy, Auto Connect",
-  //   tech: "PHP",
+  //   technologies: ["PHP"],
   // },
   "tammy-taylor": {
     name: "Tammy Taylor Nails App",
@@ -181,13 +181,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/placeholder.svg",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   clickr: {
     name: "Clickr App",
@@ -195,13 +195,13 @@ const PROJECTS = {
     role: "Technical team lead, mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://clickr.online/",
     },
     image: "/images/projects/clickr.jfif",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   siq: {
     name: "SiQ Survey App",
@@ -209,14 +209,14 @@ const PROJECTS = {
     role: "Senior mobile app developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "https://www.siq.co.za/nissa.php",
     },
     image: "/images/projects/siq.png",
     summary:
       "SiQ has been appointed by UNICEF (the United Nations children’s fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "fellowship-of-the-wheel": {
     name: "Fellowship Of The Wheel App",
@@ -224,14 +224,14 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/fellowship-of-the-wheel.webp",
     summary:
       "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo’s journey through the Compass app, pledge to the cause, and find additional information about their journey.",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   nucleo: {
     name: "Nucleo Superfood App",
@@ -239,13 +239,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/nucleo.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "harrys-butchery": {
     name: "Harry's Butchery App",
@@ -253,13 +253,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/harrys.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "ntek-college": {
     name: "NTEK College App",
@@ -267,13 +267,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/ntek.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "tekkie-tax": {
     name: "Tekkie Tax App",
@@ -281,13 +281,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/placeholder.svg",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   cafe2go: {
     name: "Cafe2Go App",
@@ -295,13 +295,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/cafe2go.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   brewers: {
     name: "Brewers Loyalty App",
@@ -309,13 +309,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/brewers.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "rooibos-on-call": {
     name: "Rooibos On Call App",
@@ -323,7 +323,7 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod:
+      android:
         "https://play.google.com/store/apps/details?id=com.comune.rooibos",
       ios: "",
       web: "",
@@ -331,7 +331,7 @@ const PROJECTS = {
     image: "/images/projects/rooibos.webp",
     summary:
       "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "bni-tshwane": {
     name: "BNI Tshwane App",
@@ -339,13 +339,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/bni.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   "cih-stock": {
     name: "CIH Stock Management App",
@@ -353,13 +353,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "http://www.ciholdings.co.za/",
     },
     image: "/images/projects/cih.png",
     summary: "Community Investment Holdings",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
   optiphi: {
     name: "Optiphi App",
@@ -367,13 +367,13 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer",
     type: "Professional",
     links: {
-      andriod: "",
+      android: "",
       ios: "",
       web: "",
     },
     image: "/images/projects/optiphi.png",
     summary: "",
-    tech: "React Native",
+    technologies: ["React Native"],
   },
 };
 

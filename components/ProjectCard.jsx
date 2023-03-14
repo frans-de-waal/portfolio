@@ -3,12 +3,13 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import styles from "./ProjectCard.module.css";
 import Link from "next/link";
+import TypeLabel from "components/TypeLabel";
 
 export default function ProjectCard({
   image,
   name,
   summary,
-  tech,
+  technologies,
   type,
   urlKey,
 }) {
@@ -25,8 +26,8 @@ export default function ProjectCard({
         />
         <p className={styles.summary}>{summary}</p>
         <div className={styles.bottomRow}>
-          <span className={styles.type}>{type}</span>
-          <span className={styles.tech}>{tech}</span>
+          <TypeLabel type={type} />
+          <TypeLabel type={technologies[0]} />
         </div>
       </Link>
     </li>
@@ -37,7 +38,7 @@ ProjectCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  tech: PropTypes.string.isRequired,
+  technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   type: PropTypes.string.isRequired,
   urlKey: PropTypes.string.isRequired,
 };
