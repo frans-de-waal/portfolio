@@ -1,0 +1,7 @@
+.container {
+  padding: 1rem 0;
+}
+
+.container :is(h2, h3) {
+  margin-top: 1em;
+}
