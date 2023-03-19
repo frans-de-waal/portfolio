@@ -121,7 +121,7 @@ const PROJECTS = {
     technologies: ["React Native", "PHP"],
   },
   acvehicles: {
-    name: "AC Vehicles",
+    name: "AC Vehicles Process Management System",
     urlKey: "acvehicles",
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
@@ -138,7 +138,7 @@ const PROJECTS = {
     technologies: ["React Native"],
   },
   acplumbing: {
-    name: "AC Plumbing & Electrical",
+    name: "AC Plumbing & Electrical Process Management System",
     urlKey: "acplumbing",
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
@@ -155,7 +155,7 @@ const PROJECTS = {
     technologies: ["React Native"],
   },
   "secure-legacy": {
-    name: "Secure Legacy",
+    name: "Secure Legacy Process Management System",
     urlKey: "secure-legacy",
     role: "Technical team lead, mobile app and full stack developer",
     type: "Professional",
@@ -244,7 +244,7 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/nucleo.png",
-    summary: "",
+    summary: "The ecommerce web platform and mobile for Nucleo Superfood.",
     technologies: ["React Native"],
   },
   "harrys-butchery": {
@@ -258,7 +258,7 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/harrys.png",
-    summary: "",
+    summary: "The ecommerce web platform and mobile app for Harry's Butchery.",
     technologies: ["React Native"],
   },
   "ntek-college": {
@@ -272,7 +272,8 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/ntek.png",
-    summary: "",
+    summary:
+      "The student mobile app and content management web platform for NTEK College.",
     technologies: ["React Native"],
   },
   "tekkie-tax": {
@@ -301,7 +302,8 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/cafe2go.png",
-    summary: "",
+    summary:
+      "The ecommorce web platform and mobile app for Cafe2Go, a chain of mobile coffee bars.",
     technologies: ["React Native"],
   },
   brewers: {
@@ -315,7 +317,8 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/brewers.png",
-    summary: "",
+    summary:
+      "The loyalty mobile app and content management system for Brewers BBQ, a restaurant chain in Pretoria, South Africa.",
     technologies: ["React Native"],
   },
   "rooibos-on-call": {
@@ -331,7 +334,8 @@ const PROJECTS = {
     },
     image: "/images/projects/rooibos.png",
     summary:
-      "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
+      "The ecommerce web platform and mobile app for Rooibos on Call, an independent consultant of Annique health and beauty products.",
+    info: "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
     technologies: ["React Native"],
   },
   "bni-tshwane": {
@@ -345,7 +349,8 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/bni.png",
-    summary: "",
+    summary:
+      "The event management app for BNI, a global business networking organization.",
     technologies: ["React Native"],
   },
   "cih-stock": {
@@ -359,7 +364,8 @@ const PROJECTS = {
       web: "http://www.ciholdings.co.za/",
     },
     image: "/images/projects/cih.png",
-    summary: "Community Investment Holdings",
+    summary:
+      "The internal stock management app for Community Investment Holdings.",
     technologies: ["React Native"],
   },
   optiphi: {
@@ -373,7 +379,8 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/optiphi.png",
-    summary: "",
+    summary:
+      "The ecommerce web platform and mobile app for Optiphi, a global supplier of skincare products.",
     technologies: ["React Native"],
   },
 };
