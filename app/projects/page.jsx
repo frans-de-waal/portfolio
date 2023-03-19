@@ -23,6 +23,19 @@ export default function Projects() {
         )
   );
 
+  const sortedProjects = filteredProjects.sort((projectA, projectB) => {
+    const nameA = projectA.name.toUpperCase();
+    const nameB = projectB.name.toUpperCase();
+
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+
   return (
     <>
       <div className={styles.controls}>
@@ -34,7 +47,7 @@ export default function Projects() {
           placeholder="search..."
         />
       </div>
-      <ProjectList projects={filteredProjects} />
+      <ProjectList projects={sortedProjects} />
     </>
   );
 }
