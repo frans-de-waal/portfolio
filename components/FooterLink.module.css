@@ -1,0 +1,13 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-accent);
+  font-weight: 600;
+  font-size: var(--fs-500);
+  color: var(--c-accent);
+}
+
+.link > span {
+  margin-left: 0.5rem;
+}

@@ -83,7 +83,6 @@
 
 :root {
   --header-height: 70px;
-  --footer-height: 50px;
 
   --c-white: #f2f4f4;
   --c-black: #252525;
@@ -106,7 +105,6 @@
 @media (min-width: 900px) {
   :root {
     --header-height: 100px;
-    --footer-height: 70px;
 
     --fs-300: 0.75rem;
     --fs-400: 1rem;
