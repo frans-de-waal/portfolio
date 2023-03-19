@@ -10,7 +10,8 @@ const PROJECTS = {
       web: "https://www.ceramic.co.za/",
     },
     image: "/images/projects/ceramic-industries-logo.png",
-    summary: "Ceramic Industries Catalogue Website And Client Portal",
+    summary:
+      "The catalogue website and client portal for Ceramic Industries, a leader in the design and manufacture of ceramic tiles and bathroomware.",
     technologies: ["React"],
   },
   italtile: {
@@ -24,7 +25,8 @@ const PROJECTS = {
       web: "https://italtile-staging.vectra.cloud/",
     },
     image: "/images/projects/italtile.png",
-    summary: "",
+    summary:
+      "The corporate website for Italtile Limited, a leading franchisor, retailer and manufacturer of tiles, bathroomware and related products.",
     technologies: ["React"],
   },
   leatt: {
@@ -38,7 +40,8 @@ const PROJECTS = {
       web: "https://www.leatt.com/",
     },
     image: "/images/projects/leatt.png",
-    summary: "",
+    summary:
+      "The ecommerce website for Leatt, a global distributor of Leatt sports equipment.",
     technologies: ["Vue.js"],
   },
   "leatt-corporate": {
@@ -52,7 +55,8 @@ const PROJECTS = {
       web: "https://leatt-corp.herokuapp.com/",
     },
     image: "/images/projects/leatt.png",
-    summary: "",
+    summary:
+      "The corporate website for Leatt, a global distributor of Leatt sports equipment.",
     technologies: ["React"],
   },
   sbs: {
@@ -65,8 +69,9 @@ const PROJECTS = {
       ios: "",
       web: "https://www.safalbuildingsystems.com/",
     },
-    image: "/images/projects/safal.jpg",
-    summary: "",
+    image: "/images/projects/sbs.png",
+    summary:
+      "The catalogue website for SAFAL Building Systems, a member of Safal Group that exclusively provides pre-engineered building solutions.",
     technologies: ["Vue.js"],
   },
   superfert: {
@@ -80,7 +85,8 @@ const PROJECTS = {
       web: "https://superfert.herokuapp.com/",
     },
     image: "/images/projects/superfert.png",
-    summary: "",
+    summary:
+      "The catalogue website for Superfert, a fertilizer production company based in Zimbabwe.",
     technologies: ["React"],
   },
   vectra: {
@@ -93,8 +99,9 @@ const PROJECTS = {
       ios: "",
       web: "https://vectra-website.herokuapp.com/",
     },
-    image: "/images/projects/placeholder.svg",
-    summary: "",
+    image: "/images/projects/vectra.svg",
+    summary:
+      "The corporate website for Vectra Business Technologies, a software company that specializes in retail and e-commerce solutions.",
     technologies: ["React"],
   },
   opfc: {
@@ -126,7 +133,8 @@ const PROJECTS = {
     },
     image: "/images/projects/autoconnect.webp",
     summary:
-      "AC Vehicles is the heart of the Motor body repair industry, with cutting edge skills that allows AC Vehicles to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AC Vehicles has the necessary solution for you!",
+      "The process management web platform and mobile app for Autoconnect Vehicles, a solution provider for national procurement of motor parts and the management of insurance claims.",
+    info: "AC Vehicles is the heart of the Motor body repair industry, with cutting edge skills that allows AC Vehicles to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AC Vehicles has the necessary solution for you! https://www.autnect.com/our-services",
     technologies: ["React Native"],
   },
   acplumbing: {
@@ -142,7 +150,8 @@ const PROJECTS = {
     },
     image: "/images/projects/acplumbing.webp",
     summary:
-      "AutoConnect is the heart of the plumbing and electrical industry, with cutting edge skills that allows AutoConnect to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AutoConnect has the necessary solution for you!",
+      "The process management web platform and mobile app for Autoconnect Plumbing & Electrical, a solution provider for national procurement of all construction materials relating to plumbing, electrical and related industries.",
+    info: "AutoConnect is the heart of the plumbing and electrical industry, with cutting edge skills that allows AutoConnect to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AutoConnect has the necessary solution for you!",
     technologies: ["React Native"],
   },
   "secure-legacy": {
@@ -156,25 +165,12 @@ const PROJECTS = {
       ios: "",
       web: "",
     },
-    image: "/images/projects/secure-legacy.webp",
+    image: "/images/projects/secure-legacy.png",
     summary:
-      "At Secure Legacy, our dedicated, experienced specialists will assist you with the very personal issues of estate planning, and drawing up wills and trusts. We are compassionate and respectful in dealing with the administration of deceased estates. If you are serious about protecting your wealth and securing the wellbeing of your family, let us assist you with these critical issues!",
+      "The client and project management web platform and mobile app for Secure Legacy, executors of wills, trusts and estates.",
+    info: "At Secure Legacy, our dedicated, experienced specialists will assist you with the very personal issues of estate planning, and drawing up wills and trusts. We are compassionate and respectful in dealing with the administration of deceased estates. If you are serious about protecting your wealth and securing the wellbeing of your family, let us assist you with these critical issues! https://securelegacy.co.za/",
     technologies: ["React Native"],
   },
-  // pipe: {
-  //   name: "Pipe: Process Automation System",
-  //   urlKey: "pipe",
-  //   role: "Technical team lead, mobile app and full stack developer",
-  //   type: "Professional",
-  //   links: {
-  //     android: "",
-  //     ios: "",
-  //     web: "",
-  //   },
-  //   image: "/images/projects/placeholder.svg",
-  //   summary: "Roadlab, Secure Lagacy, Auto Connect",
-  //   technologies: ["PHP"],
-  // },
   "tammy-taylor": {
     name: "Tammy Taylor Nails App",
     urlKey: "tammy-taylor",
@@ -185,8 +181,9 @@ const PROJECTS = {
       ios: "",
       web: "",
     },
-    image: "/images/projects/placeholder.svg",
-    summary: "",
+    image: "/images/projects/tammy-taylor.png",
+    summary:
+      "The ecommerce portal and mobile app for Tammy Taylor Nails South Africa, an international beauty salon chain.",
     technologies: ["React Native"],
   },
   clickr: {
@@ -200,7 +197,8 @@ const PROJECTS = {
       web: "https://clickr.online/",
     },
     image: "/images/projects/clickr.jfif",
-    summary: "",
+    summary:
+      "The Clickr mobile app and supporting web platform, a social engagement and marketing tool.",
     technologies: ["React Native"],
   },
   siq: {
@@ -215,7 +213,8 @@ const PROJECTS = {
     },
     image: "/images/projects/siq.png",
     summary:
-      "SiQ has been appointed by UNICEF (the United Nations children’s fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
+      "The survey tablet app for the UNICEF survey in Lesotho, managed by SiQ.",
+    info: "SiQ has been appointed by UNICEF (the United Nations children&apos;s fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
     technologies: ["React Native"],
   },
   "fellowship-of-the-wheel": {
@@ -230,7 +229,8 @@ const PROJECTS = {
     },
     image: "/images/projects/fellowship-of-the-wheel.webp",
     summary:
-      "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo’s journey through the Compass app, pledge to the cause, and find additional information about their journey.",
+      "The event app for The Fellowship of the Wheel, a fundraising event for the children from the Nomangezi Daycare Centre",
+    info: "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo&apos;s journey through the Compass app, pledge to the cause, and find additional information about their journey.",
     technologies: ["React Native"],
   },
   nucleo: {
@@ -285,8 +285,9 @@ const PROJECTS = {
       ios: "",
       web: "",
     },
-    image: "/images/projects/placeholder.svg",
-    summary: "",
+    image: "/images/projects/tekkie-tax.gif",
+    summary:
+      "The ecommerce web portal and mobile app for Tekkie Tax, a South African national fundraising campaign for 250+ local welfare organisations.",
     technologies: ["React Native"],
   },
   cafe2go: {
@@ -328,7 +329,7 @@ const PROJECTS = {
       ios: "",
       web: "",
     },
-    image: "/images/projects/rooibos.webp",
+    image: "/images/projects/rooibos.png",
     summary:
       "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
     technologies: ["React Native"],
