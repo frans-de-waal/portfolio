@@ -27,11 +27,16 @@
 .image {
   object-fit: contain;
   object-position: center;
-  filter: grayscale(1);
 }
 
-.container:hover .image {
-  filter: unset;
+@media (min-width: 900px) {
+  .image {
+    filter: grayscale(1);
+  }
+
+  .container:hover .image {
+    filter: unset;
+  }
 }
 
 .summary {
