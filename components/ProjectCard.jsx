@@ -8,6 +8,7 @@ import TypeLabel from "components/TypeLabel";
 export default function ProjectCard({
   image,
   name,
+  priority = false,
   summary,
   technologies,
   type,
@@ -23,6 +24,7 @@ export default function ProjectCard({
           width={200}
           height={200}
           alt={`${name} project logo`}
+          priority={priority}
         />
         <p className={styles.summary}>{summary}</p>
         <div className={styles.bottomRow}>
@@ -37,6 +39,7 @@ export default function ProjectCard({
 ProjectCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  priority: PropTypes.bool,
   summary: PropTypes.string.isRequired,
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   type: PropTypes.string.isRequired,
