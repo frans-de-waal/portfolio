@@ -8,6 +8,10 @@ import {
 import TypeLabel from "components/TypeLabel";
 import Image from "next/image";
 
+export function generateStaticParams() {
+  return Object.keys(PROJECTS).map((urlKey) => ({ urlKey }));
+}
+
 export default function Project({ params: { urlKey } }) {
   const {
     name,
@@ -17,18 +21,7 @@ export default function Project({ params: { urlKey } }) {
     image,
     summary,
     technologies,
-    ...rest
   } = PROJECTS[urlKey];
-  console.log("project", {
-    name,
-    role,
-    type,
-    links: { android, ios, web },
-    image,
-    summary,
-    technologies,
-    ...rest,
-  });
 
   return (
     <>
