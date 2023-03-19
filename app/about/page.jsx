@@ -57,7 +57,7 @@ export default function About() {
         <i>Pretoria, South Africa, 2019 - 2020</i>
       </p>
       <p>
-        Completed the first two years of a three-year degree in Applied
+        I completed the first two years of a three-year degree in Applied
         Mathematics and Computer Science.
       </p>
       <h3>University of Pretoria</h3>
@@ -70,14 +70,14 @@ export default function About() {
         <i>Pretoria, South Africa, 2007 - 2014</i>
       </p>
       <p>
-        Completed the first three years of a four-year degree in Electronic
+        I completed the first three years of a four-year degree in Electronic
         Engineering.
       </p>
       <h2>Interests</h2>
       <p>
         I enjoy creating things, whether it&apos;s software, electronics, or
         making food. I also like playing games; board games, card games, or PC
-        games. I like spending time with my wife and our two dogs.
+        games. I enjoy spending time with my wife and our two dogs.
       </p>
     </div>
   );

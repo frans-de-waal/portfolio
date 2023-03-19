@@ -2,7 +2,7 @@ const PROJECTS = {
   "ceramic-industries": {
     name: "Ceramic Industries Website",
     urlKey: "ceramic-industries",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -17,7 +17,7 @@ const PROJECTS = {
   italtile: {
     name: "Italtile Corporate Website",
     urlKey: "italtile",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -32,7 +32,7 @@ const PROJECTS = {
   leatt: {
     name: "Leatt Ecommerce Website",
     urlKey: "leatt",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -47,7 +47,7 @@ const PROJECTS = {
   "leatt-corporate": {
     name: "Leatt Corporate Website",
     urlKey: "leatt-corporate",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -62,7 +62,7 @@ const PROJECTS = {
   sbs: {
     name: "SAFAL Building Systems Website",
     urlKey: "sbs",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -77,7 +77,7 @@ const PROJECTS = {
   superfert: {
     name: "Superfert Website",
     urlKey: "superfert",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -92,7 +92,7 @@ const PROJECTS = {
   vectra: {
     name: "Vectra Website",
     urlKey: "vectra",
-    role: "Technical lead and senior frontend developer",
+    role: "Technical lead and senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -107,7 +107,7 @@ const PROJECTS = {
   opfc: {
     name: "OPFC Supporter App",
     urlKey: "opfc",
-    role: "Technical team lead and mobile app developer",
+    role: "Technical team lead and mobile app developer.",
     type: "Professional",
     links: {
       android:
@@ -123,7 +123,7 @@ const PROJECTS = {
   acvehicles: {
     name: "AC Vehicles Process Management System",
     urlKey: "acvehicles",
-    role: "Technical team lead, mobile app and full stack developer",
+    role: "Technical team lead, mobile app and full stack developer.",
     type: "Professional",
     links: {
       android:
@@ -140,7 +140,7 @@ const PROJECTS = {
   acplumbing: {
     name: "AC Plumbing & Electrical Process Management System",
     urlKey: "acplumbing",
-    role: "Technical team lead, mobile app and full stack developer",
+    role: "Technical team lead, mobile app and full stack developer.",
     type: "Professional",
     links: {
       android:
@@ -157,7 +157,7 @@ const PROJECTS = {
   "secure-legacy": {
     name: "Secure Legacy Process Management System",
     urlKey: "secure-legacy",
-    role: "Technical team lead, mobile app and full stack developer",
+    role: "Technical team lead, mobile app and full stack developer.",
     type: "Professional",
     links: {
       android:
@@ -174,7 +174,7 @@ const PROJECTS = {
   "tammy-taylor": {
     name: "Tammy Taylor Nails App",
     urlKey: "tammy-taylor",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -189,7 +189,7 @@ const PROJECTS = {
   clickr: {
     name: "Clickr App",
     urlKey: "clickr",
-    role: "Technical team lead, mobile app and full stack web developer",
+    role: "Technical team lead, mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -204,7 +204,7 @@ const PROJECTS = {
   siq: {
     name: "SiQ Survey App",
     urlKey: "siq",
-    role: "Senior mobile app developer",
+    role: "Senior mobile app developer.",
     type: "Professional",
     links: {
       android: "",
@@ -214,13 +214,13 @@ const PROJECTS = {
     image: "/images/projects/siq.png",
     summary:
       "The survey tablet app for the UNICEF survey in Lesotho, managed by SiQ.",
-    info: "SiQ has been appointed by UNICEF (the United Nations children&apos;s fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
+    info: "SiQ has been appointed by UNICEF (the United Nations children's fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
     technologies: ["React Native"],
   },
   "fellowship-of-the-wheel": {
     name: "Fellowship Of The Wheel App",
     urlKey: "fellowship-of-the-wheel",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -230,13 +230,13 @@ const PROJECTS = {
     image: "/images/projects/fellowship-of-the-wheel.webp",
     summary:
       "The event app for The Fellowship of the Wheel, a fundraising event for the children from the Nomangezi Daycare Centre",
-    info: "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo&apos;s journey through the Compass app, pledge to the cause, and find additional information about their journey.",
+    info: "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo's journey through the Compass app, pledge to the cause, and find additional information about their journey.",
     technologies: ["React Native"],
   },
   nucleo: {
     name: "Nucleo Superfood App",
     urlKey: "nucleo",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -250,7 +250,7 @@ const PROJECTS = {
   "harrys-butchery": {
     name: "Harry's Butchery App",
     urlKey: "harrys-butchery",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -264,7 +264,7 @@ const PROJECTS = {
   "ntek-college": {
     name: "NTEK College App",
     urlKey: "ntek-college",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -279,7 +279,7 @@ const PROJECTS = {
   "tekkie-tax": {
     name: "Tekkie Tax App",
     urlKey: "tekkie-tax",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -294,7 +294,7 @@ const PROJECTS = {
   cafe2go: {
     name: "Cafe2Go App",
     urlKey: "cafe2go",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -309,7 +309,7 @@ const PROJECTS = {
   brewers: {
     name: "Brewers Loyalty App",
     urlKey: "brewers",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -324,7 +324,7 @@ const PROJECTS = {
   "rooibos-on-call": {
     name: "Rooibos On Call App",
     urlKey: "rooibos-on-call",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android:
@@ -341,7 +341,7 @@ const PROJECTS = {
   "bni-tshwane": {
     name: "BNI Tshwane App",
     urlKey: "bni-tshwane",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -356,7 +356,7 @@ const PROJECTS = {
   "cih-stock": {
     name: "CIH Stock Management App",
     urlKey: "cih-stock",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
@@ -371,7 +371,7 @@ const PROJECTS = {
   optiphi: {
     name: "Optiphi App",
     urlKey: "optiphi",
-    role: "Senior mobile app and full stack web developer",
+    role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
       android: "",
