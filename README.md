@@ -2,37 +2,6 @@
 
 > Built using Next.js
 
-## Inspiration
-
-### Look and feel
-
-- https://www.youtube.com/watch?v=KYFwcIRx16g
-- https://dribbble.com/
-- https://www.pinterest.co.uk/
-
-### Content
-
-- List of projects
-  - professional
-    - https://apkcombo.com/developer/Comune.IT
-  - personal
-- General info
-  - name
-  - email
-  - github
-- CV
-  - HTML
-  - PDF
-- Contact
-
-## TODO
-
-- Domain
-  - https://domains.google.com/registrar/fransdewaal.dev?hl=en
-- SSL cert
-  - https://support.google.com/domains/answer/7630973
-  - https://letsencrypt.org/getting-started/
-
 ## Development
 
 First, run the development server:
