@@ -2,6 +2,18 @@
   padding: 1rem 0;
 }
 
-.container :is(h2, h3) {
-  margin-top: 1em;
+.container h2 {
+  margin-top: 4rem;
+}
+
+.container h3 {
+  margin-top: 2rem;
+}
+
+.container p {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.container ul {
+  margin-left: 4rem;
 }

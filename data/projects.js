@@ -2,7 +2,7 @@ const PROJECTS = {
   "ceramic-industries": {
     name: "Ceramic Industries Website",
     urlKey: "ceramic-industries",
-    role: "Technical lead and senior frontend developer.",
+    role: "Senior frontend developer.",
     type: "Professional",
     links: {
       android: "",
@@ -12,22 +12,7 @@ const PROJECTS = {
     image: "/images/projects/ceramic-industries-logo.png",
     summary:
       "The catalogue website and client portal for Ceramic Industries, a leader in the design and manufacture of ceramic tiles and bathroomware.",
-    technologies: ["React"],
-  },
-  italtile: {
-    name: "Italtile Corporate Website",
-    urlKey: "italtile",
-    role: "Technical lead and senior frontend developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "https://italtile-staging.vectra.cloud/",
-    },
-    image: "/images/projects/italtile.png",
-    summary:
-      "The corporate website for Italtile Limited, a leading franchisor, retailer and manufacturer of tiles, bathroomware and related products.",
-    technologies: ["React"],
+    technologies: ["React", "Next", "Node", "Strapi"],
   },
   leatt: {
     name: "Leatt Ecommerce Website",
@@ -42,22 +27,7 @@ const PROJECTS = {
     image: "/images/projects/leatt.png",
     summary:
       "The ecommerce website for Leatt, a global distributor of Leatt sports equipment.",
-    technologies: ["Vue.js"],
-  },
-  "leatt-corporate": {
-    name: "Leatt Corporate Website",
-    urlKey: "leatt-corporate",
-    role: "Technical lead and senior frontend developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "https://leatt-corp.herokuapp.com/",
-    },
-    image: "/images/projects/leatt.png",
-    summary:
-      "The corporate website for Leatt, a global distributor of Leatt sports equipment.",
-    technologies: ["React"],
+    technologies: ["Vue", "Nuxt", "Magento", "Storyblok"],
   },
   sbs: {
     name: "SAFAL Building Systems Website",
@@ -72,37 +42,7 @@ const PROJECTS = {
     image: "/images/projects/sbs.png",
     summary:
       "The catalogue website for SAFAL Building Systems, a member of Safal Group that exclusively provides pre-engineered building solutions.",
-    technologies: ["Vue.js"],
-  },
-  superfert: {
-    name: "Superfert Website",
-    urlKey: "superfert",
-    role: "Technical lead and senior frontend developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "https://superfert.herokuapp.com/",
-    },
-    image: "/images/projects/superfert.png",
-    summary:
-      "The catalogue website for Superfert, a fertilizer production company based in Zimbabwe.",
-    technologies: ["React"],
-  },
-  vectra: {
-    name: "Vectra Website",
-    urlKey: "vectra",
-    role: "Technical lead and senior frontend developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "https://vectra-website.herokuapp.com/",
-    },
-    image: "/images/projects/vectra.svg",
-    summary:
-      "The corporate website for Vectra Business Technologies, a software company that specializes in retail and e-commerce solutions.",
-    technologies: ["React"],
+    technologies: ["Vue", "Nuxt", "Vue Storefront", "Storyblok"],
   },
   opfc: {
     name: "OPFC Supporter App",
@@ -118,7 +58,7 @@ const PROJECTS = {
     image: "/images/projects/opfc.svg",
     summary:
       "The official supporter app for Orlando Pirates, one of South Africa's oldest football clubs.",
-    technologies: ["React Native", "PHP"],
+    technologies: ["React Native"],
   },
   acvehicles: {
     name: "AC Vehicles Process Management System",
@@ -128,14 +68,14 @@ const PROJECTS = {
     links: {
       android:
         "https://play.google.com/store/apps/details?id=com.comune.nabupax",
-      ios: "",
+      ios: "https://apps.apple.com/za/app/ac-vehicles/id1527276814",
       web: "",
     },
     image: "/images/projects/autoconnect.webp",
     summary:
       "The process management web platform and mobile app for Autoconnect Vehicles, a solution provider for national procurement of motor parts and the management of insurance claims.",
     info: "AC Vehicles is the heart of the Motor body repair industry, with cutting edge skills that allows AC Vehicles to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AC Vehicles has the necessary solution for you! https://www.autnect.com/our-services",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   acplumbing: {
     name: "AC Plumbing & Electrical Process Management System",
@@ -144,15 +84,15 @@ const PROJECTS = {
     type: "Professional",
     links: {
       android:
-        "https://play.google.com/store/apps/details?id=com.comune.nabupax",
-      ios: "",
+        "https://play.google.com/store/apps/details?id=com.autoconnect.pe",
+      ios: "https://apps.apple.com/za/app/ac-plumbing-electrical/id1537592989",
       web: "",
     },
     image: "/images/projects/acplumbing.webp",
     summary:
       "The process management web platform and mobile app for Autoconnect Plumbing & Electrical, a solution provider for national procurement of all construction materials relating to plumbing, electrical and related industries.",
     info: "AutoConnect is the heart of the plumbing and electrical industry, with cutting edge skills that allows AutoConnect to provide a turnkey solution to their customers anything from motor parts supply to management of insurance claims, AutoConnect has the necessary solution for you!",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "secure-legacy": {
     name: "Secure Legacy Process Management System",
@@ -162,14 +102,13 @@ const PROJECTS = {
     links: {
       android:
         "https://play.google.com/store/apps/details?id=com.comune.securelegacy",
-      ios: "",
+      ios: "https://apps.apple.com/za/app/secure-legacy/id1487136644",
       web: "",
     },
     image: "/images/projects/secure-legacy.png",
     summary:
       "The client and project management web platform and mobile app for Secure Legacy, executors of wills, trusts and estates.",
-    info: "At Secure Legacy, our dedicated, experienced specialists will assist you with the very personal issues of estate planning, and drawing up wills and trusts. We are compassionate and respectful in dealing with the administration of deceased estates. If you are serious about protecting your wealth and securing the wellbeing of your family, let us assist you with these critical issues! https://securelegacy.co.za/",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "tammy-taylor": {
     name: "Tammy Taylor Nails App",
@@ -184,7 +123,7 @@ const PROJECTS = {
     image: "/images/projects/tammy-taylor.png",
     summary:
       "The ecommerce portal and mobile app for Tammy Taylor Nails South Africa, an international beauty salon chain.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   clickr: {
     name: "Clickr App",
@@ -199,7 +138,7 @@ const PROJECTS = {
     image: "/images/projects/clickr.jfif",
     summary:
       "The Clickr mobile app and supporting web platform, a social engagement and marketing tool.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   siq: {
     name: "SiQ Survey App",
@@ -217,35 +156,20 @@ const PROJECTS = {
     info: "SiQ has been appointed by UNICEF (the United Nations children's fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
     technologies: ["React Native"],
   },
-  "fellowship-of-the-wheel": {
-    name: "Fellowship Of The Wheel App",
-    urlKey: "fellowship-of-the-wheel",
-    role: "Senior mobile app and full stack web developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "",
-    },
-    image: "/images/projects/fellowship-of-the-wheel.webp",
-    summary:
-      "The event app for The Fellowship of the Wheel, a fundraising event for the children from the Nomangezi Daycare Centre",
-    info: "Christiaan Jansen and Jacques du Toit decided to cycle from Pretoria to Cape Town in 16 days in aid of the children from Nomangezi Daycare Centre. The duo called themselves The Fellowship of the Wheel. You can become a part of the duo's journey through the Compass app, pledge to the cause, and find additional information about their journey.",
-    technologies: ["React Native"],
-  },
   nucleo: {
     name: "Nucleo Superfood App",
     urlKey: "nucleo",
     role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
-      android: "",
-      ios: "",
+      android:
+        "https://play.google.com/store/apps/details?id=com.comune.nucleoapp",
+      ios: "https://apps.apple.com/za/app/nucleo-superfood/id1201934593",
       web: "",
     },
     image: "/images/projects/nucleo.png",
     summary: "The ecommerce web platform and mobile for Nucleo Superfood.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "harrys-butchery": {
     name: "Harry's Butchery App",
@@ -257,9 +181,9 @@ const PROJECTS = {
       ios: "",
       web: "",
     },
-    image: "/images/projects/harrys.png",
+    image: "/images/projects/harry.jpg",
     summary: "The ecommerce web platform and mobile app for Harry's Butchery.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "ntek-college": {
     name: "NTEK College App",
@@ -267,14 +191,15 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
-      android: "",
-      ios: "",
+      android:
+        "https://play.google.com/store/apps/details?id=com.comune.ntekcollege",
+      ios: "https://apps.apple.com/za/app/ntek-college/id1519420687",
       web: "",
     },
     image: "/images/projects/ntek.png",
     summary:
       "The student mobile app and content management web platform for NTEK College.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "tekkie-tax": {
     name: "Tekkie Tax App",
@@ -282,14 +207,15 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
-      android: "",
+      android:
+        "https://play.google.com/store/apps/details?id=com.comune.tekkietax_",
       ios: "",
       web: "",
     },
     image: "/images/projects/tekkie-tax.gif",
     summary:
       "The ecommerce web portal and mobile app for Tekkie Tax, a South African national fundraising campaign for 250+ local welfare organisations.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   cafe2go: {
     name: "Cafe2Go App",
@@ -304,22 +230,7 @@ const PROJECTS = {
     image: "/images/projects/cafe2go.png",
     summary:
       "The ecommorce web platform and mobile app for Cafe2Go, a chain of mobile coffee bars.",
-    technologies: ["React Native"],
-  },
-  brewers: {
-    name: "Brewers Loyalty App",
-    urlKey: "brewers",
-    role: "Senior mobile app and full stack web developer.",
-    type: "Professional",
-    links: {
-      android: "",
-      ios: "",
-      web: "",
-    },
-    image: "/images/projects/brewers.png",
-    summary:
-      "The loyalty mobile app and content management system for Brewers BBQ, a restaurant chain in Pretoria, South Africa.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "rooibos-on-call": {
     name: "Rooibos On Call App",
@@ -336,7 +247,7 @@ const PROJECTS = {
     summary:
       "The ecommerce web platform and mobile app for Rooibos on Call, an independent consultant of Annique health and beauty products.",
     info: "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "bni-tshwane": {
     name: "BNI Tshwane App",
@@ -351,7 +262,7 @@ const PROJECTS = {
     image: "/images/projects/bni.png",
     summary:
       "The event management app for BNI, a global business networking organization.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "cih-stock": {
     name: "CIH Stock Management App",
@@ -366,7 +277,7 @@ const PROJECTS = {
     image: "/images/projects/cih.png",
     summary:
       "The internal stock management app for Community Investment Holdings.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   optiphi: {
     name: "Optiphi App",
@@ -374,14 +285,15 @@ const PROJECTS = {
     role: "Senior mobile app and full stack web developer.",
     type: "Professional",
     links: {
-      android: "",
-      ios: "",
+      android:
+        "https://play.google.com/store/apps/details?id=com.comune.optiphiapp",
+      ios: "https://apps.apple.com/za/app/optiphi/id1540731812",
       web: "",
     },
     image: "/images/projects/optiphi.png",
     summary:
       "The ecommerce web platform and mobile app for Optiphi, a global supplier of skincare products.",
-    technologies: ["React Native"],
+    technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
 };
 

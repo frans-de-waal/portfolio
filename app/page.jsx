@@ -30,7 +30,11 @@ export default function Home() {
       </div>
       <h2>Featured Projects</h2>
       <ProjectList
-        projects={[PROJECTS["opfc"], PROJECTS["leatt"], PROJECTS["siq"]]}
+        projects={[
+          PROJECTS["opfc"],
+          PROJECTS["leatt"],
+          PROJECTS["secure-legacy"],
+        ]}
       />
     </>
   );
