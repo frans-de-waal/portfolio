@@ -43,6 +43,21 @@ export default function About() {
       </p>
       <p>Full stack web and mobile development.</p>
 
+      <h2>References</h2>
+
+      <h3>Jaco Groenewald</h3>
+      <p>
+        <strong>Co-founder of Comune.IT</strong>
+      </p>
+      <p>
+        <a href="mailto:jacozyklonb@gmail.com" target="_blank" rel="noreferrer">
+          jacozyklonb@gmail.com
+        </a>
+      </p>
+      <p>
+        <i>Phone number on request</i>
+      </p>
+
       <h2>Skills</h2>
 
       <h3>Languages</h3>
