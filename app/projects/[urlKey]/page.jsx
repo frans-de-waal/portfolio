@@ -4,6 +4,7 @@ import {
   IoLogoGooglePlaystore,
   IoLogoAppleAppstore,
   IoGlobeOutline,
+  IoLogoGithub,
 } from "react-icons/io5";
 import PROJECTS from "data/projects";
 import TypeLabel from "components/TypeLabel";
@@ -18,7 +19,7 @@ export default function Project({ params: { urlKey } }) {
     name,
     role,
     type,
-    links: { android, ios, web },
+    links: { android, ios, web, github },
     image,
     info,
     summary,
@@ -58,6 +59,11 @@ export default function Project({ params: { urlKey } }) {
         {web && (
           <a href={web} target="_blank" rel="noreferrer">
             <IoGlobeOutline size="2rem" color="var(--c-accent)" />
+          </a>
+        )}
+        {github && (
+          <a href={github} target="_blank" rel="noreferrer">
+            <IoLogoGithub size="2rem" color="var(--c-accent)" />
           </a>
         )}
       </div>
