@@ -64,7 +64,9 @@ export default function About() {
       <p>JavaScript, HTML, CSS, PHP, PostgreSQL, GraphQL, C++</p>
 
       <h3>Frontend Frameworks</h3>
-      <p>React, Next.js, Gatsby, Vue.js, Nuxt.js, Vite, SolidJS, jQuery</p>
+      <p>
+        React, Next.js, Gatsby, Vue.js, Nuxt.js, Vite, SolidJS, jQuery, Redux
+      </p>
 
       <h3>Mobile App Frameworks</h3>
       <p>React Native</p>
