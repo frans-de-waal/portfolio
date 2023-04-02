@@ -83,7 +83,7 @@ export default function About() {
       <h3>DevOps</h3>
       <p>
         Git, Docker, AWS <i>(EC2, RDS, S3)</i>, Heroku, Vercel, Firebase,
-        Bitbucket Pipelines
+        Apache, Linux, Bitbucket Pipelines
       </p>
 
       <h3>Project Management</h3>
