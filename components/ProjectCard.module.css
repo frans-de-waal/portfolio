@@ -29,16 +29,6 @@
   object-position: center;
 }
 
-@media (min-width: 900px) {
-  .image {
-    filter: grayscale(1);
-  }
-
-  .container:hover .image {
-    filter: unset;
-  }
-}
-
 .summary {
   flex: 1;
   text-align: center;
