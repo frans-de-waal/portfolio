@@ -385,6 +385,21 @@ const PROJECTS = {
     summary: "Node.js game server.",
     technologies: ["Node.js"],
   },
+  vectra: {
+    name: "Vectra Website",
+    urlKey: "vectra",
+    role: "Technical lead and senior frontend developer.",
+    type: "Professional",
+    links: {
+      android: "",
+      ios: "",
+      web: "https://vectra.co.za/",
+    },
+    image: "/images/projects/vectra.svg",
+    summary:
+      "The corporate website for Vectra Business Technologies, a software company that specializes in retail and e-commerce solutions.",
+    technologies: ["React", "Gatsby", "Storyblok", "Heroku"],
+  },
 };
 
 export default PROJECTS;
