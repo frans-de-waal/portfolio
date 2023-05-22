@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import styles from "./page.module.css";
 import portrait from "public/images/frans-transparent-2.png";
 import ProjectList from "components/ProjectList";
@@ -10,7 +11,7 @@ export default function Home() {
       <div className={styles.hero}>
         <div className={styles.col}>
           <h2>
-            Hi, my name is <strong>Frans</strong>.
+            Hi, my name is <strong>Frans de Waal</strong>.
           </h2>
           <h1>
             I&apos;m a <strong>full stack developer</strong> specializing in{" "}
@@ -36,6 +37,7 @@ export default function Home() {
           PROJECTS["secure-legacy"],
         ]}
       />
+      <Link href="/projects" className={styles.viewAll}>View All</Link>
     </>
   );
 }

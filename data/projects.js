@@ -153,7 +153,7 @@ const PROJECTS = {
     image: "/images/projects/siq.png",
     summary:
       "The survey tablet app for the UNICEF survey in Lesotho, managed by SiQ.",
-    info: "SiQ has been appointed by UNICEF (the United Nations children's fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 households have to be surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception is not guaranteed within the area of interest, and some areas are also without electricity and other basic services.    This mobile application will lessen the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application will facilitate the survey process by being the primary data capturing and storing tool.",
+    info: "SiQ was appointed by UNICEF (the United Nations Children's Fund) to do a survey in the Kingdom of Lesotho. During this time, approximately 60 000 was surveyed, by an estimated 100 surveyors. The area of interest encompasses from deep rural up to urban (and everything in between). Cell phone reception was not guaranteed within the area of interest, and some areas are also without electricity and other basic services. The mobile application lessened the burden of data capturing by streamlining the process and at the same time guiding the surveyors to record accurate data. The application facilitated the survey process by being the primary data capturing and storing tool.",
     technologies: ["React Native"],
   },
   nucleo: {

@@ -29,7 +29,7 @@ export default function Project({ params: { urlKey } }) {
   return (
     <>
       <Link href="/projects" className={styles.backButton}>
-        &lt;Back to projects
+        Back to projects
       </Link>
       <h1 className={styles.heading}>{name}</h1>
       <Image

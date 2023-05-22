@@ -1,6 +1,7 @@
 .backButton {
   color: var(--c-accent);
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
+  text-decoration: underline;
   padding: 0.5rem 0;
 }
 

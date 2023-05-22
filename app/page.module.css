@@ -73,3 +73,18 @@
   width: var(--circle-size);
   height: var(--circle-size);
 }
+
+.viewAll {
+  color: var(--c-accent);
+  font-size: var(--fs-400);
+  text-decoration: underline;
+  align-self: flex-end;
+  margin: 0.5rem 2rem 0.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .viewAll {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+}
