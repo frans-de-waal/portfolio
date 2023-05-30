@@ -50,8 +50,6 @@ const PROJECTS = {
     role: "Technical team lead and mobile app developer.",
     type: "Professional",
     links: {
-      android:
-        "https://play.google.com/store/apps/details?id=com.orlandopiratesfc.mobileapp",
       ios: "https://apps.apple.com/za/app/orlando-pirates-official-app/id1469888955",
       web: "",
     },
