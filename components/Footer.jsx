@@ -18,9 +18,9 @@ export default function Footer() {
         <IoLogoGithub size="2rem" />
         <span>GitHub</span>
       </FooterLink>
-      <FooterLink url="CV-Frans-de-Waal.pdf">
+      <FooterLink url="Resume-Frans-de-Waal.pdf">
         <IoDownloadOutline size="2rem" />
-        <span>CV</span>
+        <span>Resume</span>
       </FooterLink>
       <FooterLink url="mailto:fmdewaal@gmail.com">
         <IoAtOutline size="2rem" />
