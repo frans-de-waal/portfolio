@@ -39,7 +39,7 @@ export default function Projects() {
   return (
     <>
       <div className={styles.controls}>
-        <h1>Projects </h1>
+        <h1>Professional and Hobby Projects</h1>
         <input
           className={styles.search}
           type="text"

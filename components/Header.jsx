@@ -29,10 +29,10 @@ export default function Header() {
         </button>
         <ul className={`${styles.navList} ${menuOpen ? styles.open : ""}`}>
           <li className={styles.navItem}>
-            <Link href="/about">About</Link>
+            <Link href="/about">About Me</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">All Projects</Link>
           </li>
         </ul>
       </nav>

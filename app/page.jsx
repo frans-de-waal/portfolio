@@ -29,7 +29,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <h2>Featured Projects</h2>
+      <h2>Major Recent Projects</h2>
       <ProjectList
         projects={[
           PROJECTS["opfc"],
@@ -37,7 +37,7 @@ export default function Home() {
           PROJECTS["secure-legacy"],
         ]}
       />
-      <Link href="/projects" className={styles.viewAll}>View All</Link>
+      <Link href="/projects" className={styles.viewAll}>View all projects</Link>
     </>
   );
 }

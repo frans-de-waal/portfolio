@@ -6,9 +6,7 @@ export default function About() {
       <h1 className>About Me</h1>
 
       <p>
-        I&apos;m an experienced senior software engineer with a demonstrated
-        history of working with modern web technologies. I&apos;m passionate
-        about creating effective solutions for modern problems.
+        I am an experienced senior software engineer with a demonstrated history of working with modern web and mobile technologies. I am passionate about creating effective solutions for modern problems.
       </p>
 
       <h2>Work Experience</h2>
@@ -20,7 +18,7 @@ export default function About() {
       <p>
         <i>April 2021 - PRESENT</i>
       </p>
-      <p>Senior software developer specializing in web frontend development.</p>
+      <p>Senior software developer specializing in leading multiple web frontend projects.</p>
 
       <h3>Comune.IT</h3>
       <p>
@@ -41,29 +39,32 @@ export default function About() {
       <p>
         <i>September 2015 - June 2020</i>
       </p>
-      <p>Full stack web and mobile development.</p>
+      <p>Full stack developer working on full stack web and mobile projects.</p>
 
-      <h2>References</h2>
+      <h2>References<sup>*</sup></h2>
 
       <h3>Jaco Groenewald</h3>
       <p>
-        <strong>Co-founder of Comune.IT</strong>
+        Co-founder of Comune.IT
       </p>
-      <p>
-        <a href="mailto:jacozyklonb@gmail.com" target="_blank" rel="noreferrer">
-          jacozyklonb@gmail.com
-        </a>
-      </p>
-      <p>
-        <i>Phone number on request</i>
-      </p>
+
+      <h3>Wynand Geldenhuys</h3>
+      <p>Founder & Managing Director of Vectra</p>
+
+      <h3>Caroline Van Dyk</h3>
+      <p>Head of Operations at Vectra</p>
+
+      <h3>O'Conner Smith</h3>
+      <p>Product Manager at Vectra</p>
+
+      <br /><i><sup>*</sup>Contact information available on request.</i>
 
       <h2>Skills</h2>
 
       <h3>Languages</h3>
       <p>JavaScript, HTML, CSS, PHP, PostgreSQL, GraphQL, C++</p>
 
-      <h3>Frontend Frameworks</h3>
+      <h3>Frontend Frameworks & Libraries</h3>
       <p>
         React, Next.js, Gatsby, Vue.js, Nuxt.js, Vite, SolidJS, jQuery, Redux
       </p>
@@ -82,8 +83,8 @@ export default function About() {
 
       <h3>DevOps</h3>
       <p>
-        Git, Docker, AWS <i>(EC2, RDS, S3)</i>, Heroku, Vercel, Firebase,
-        Apache, Linux, Bitbucket Pipelines
+        Apache, AWS (EC2, RDS, S3), Bitbucket Pipelines (CI/CD), Docker, Firebase,
+        Git, Heroku, Linux (command line), Vercel
       </p>
 
       <h3>Project Management</h3>
@@ -153,9 +154,7 @@ export default function About() {
       <h2>Interests</h2>
 
       <p>
-        I enjoy creating things, whether it&apos;s software, electronics, or
-        making food. I also like playing games; board games, card games, or PC
-        games. I enjoy spending time with my wife and our two dogs.
+        I take pleasure in creating a variety of things, ranging from software and electronics to cooking dinner with my wife. Additionally, I enjoy various forms of gaming, including board games, card games, and PC games. I like to spend time with my wife and our two dogs over the weekends.
       </p>
     </div>
   );
