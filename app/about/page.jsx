@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export default function About() {
   return (
     <div className={styles.container}>
-      <h1 className>About Me</h1>
+      <h1>About Me</h1>
 
       <p>
         I am an experienced senior software engineer with a demonstrated history of working with modern web and mobile technologies. I am passionate about creating effective solutions for modern problems.
@@ -11,25 +11,31 @@ export default function About() {
 
       <h2>Work Experience</h2>
 
+      <h3>First Table</h3>
+      <p><strong>Senior Front-End Developer</strong></p>
+      <p>
+        <i>January 2024 - PRESENT</i>
+      </p>
+      <p>I am working on the First Table web platform, as well as various internal business tools.</p>
+
       <h3>Vectra Business Technologies</h3>
       <p>
         <strong>Senior Software Developer</strong>
       </p>
       <p>
-        <i>April 2021 - PRESENT</i>
+        <i>April 2021 - November 2023 (2 years, 7 months)</i>
       </p>
-      <p>Senior software developer specializing in leading multiple web frontend projects.</p>
+      <p>I was the technical lead on multiple web-based e-commerce projects.</p>
 
       <h3>Comune.IT</h3>
       <p>
         <strong>Development Team Lead</strong>
       </p>
       <p>
-        <i>July 2020 - March 2021</i>
+        <i>July 2020 - March 2021 (9 months)</i>
       </p>
       <p>
-        Development team lead responsible for managing the development team and
-        various software projects.
+        I was responsible for managing the development team and various software projects.
       </p>
 
       <h3>Comune.IT</h3>
@@ -37,9 +43,9 @@ export default function About() {
         <strong>Full stack Developer</strong>
       </p>
       <p>
-        <i>September 2015 - June 2020</i>
+        <i>September 2015 - June 2020 (4 years, 9 months)</i>
       </p>
-      <p>Full stack developer working on full stack web and mobile projects.</p>
+      <p>Starting as a junior developer I worked on various full-stack web and mobile projects.</p>
 
       <h2>References<sup>*</sup></h2>
 
@@ -54,7 +60,7 @@ export default function About() {
       <h3>Caroline Van Dyk</h3>
       <p>Head of Operations at Vectra</p>
 
-      <h3>O'Conner Smith</h3>
+      <h3>O&apos;Conner Smith</h3>
       <p>Product Manager at Vectra</p>
 
       <br /><i><sup>*</sup>Contact information available on request.</i>
