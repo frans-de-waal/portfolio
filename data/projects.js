@@ -1,4 +1,19 @@
 const PROJECTS = {
+  "first-table": {
+    name: "First Table",
+    urlKey: "first-table",
+    role: "Senior Front-End Developer.",
+    type: "Professional",
+    links: {
+      android: "",
+      ios: "",
+      web: "https://firsttable.com/",
+    },
+    image: "/images/projects/first-table.png",
+    summary:
+      "The international restaurant booking platform.",
+    technologies: ["React", "Next.js"],
+  },
   "ceramic-industries": {
     name: "Ceramic Industries Website",
     urlKey: "ceramic-industries",
@@ -12,10 +27,10 @@ const PROJECTS = {
     image: "/images/projects/ceramic-industries-logo.png",
     summary:
       "The catalogue website and client portal for Ceramic Industries, a leader in the design and manufacture of ceramic tiles and bathroomware.",
-    technologies: ["React", "Next", "Node", "Strapi"],
+    technologies: ["React", "Next.js", "Node", "Strapi"],
   },
   leatt: {
-    name: "Leatt Ecommerce Website",
+    name: "Leatt E-Commerce",
     urlKey: "leatt",
     role: "Technical lead and senior frontend developer.",
     type: "Professional",
@@ -26,8 +41,8 @@ const PROJECTS = {
     },
     image: "/images/projects/leatt.png",
     summary:
-      "The ecommerce website for Leatt, a global distributor of Leatt sports equipment.",
-    technologies: ["Vue", "Nuxt", "Magento", "Storyblok"],
+      "The e-commerce website for Leatt, a global distributor of Leatt sports equipment.",
+    technologies: ["Vue.js", "Nuxt.js", "Magento", "Storyblok"],
   },
   sbs: {
     name: "SAFAL Building Systems Website",
@@ -42,7 +57,7 @@ const PROJECTS = {
     image: "/images/projects/sbs.png",
     summary:
       "The catalogue website for SAFAL Building Systems, a member of Safal Group that exclusively provides pre-engineered building solutions.",
-    technologies: ["Vue", "Nuxt", "Vue Storefront", "Storyblok"],
+    technologies: ["Vue.js", "Nuxt.js", "Vue Storefront", "Storyblok"],
   },
   opfc: {
     name: "OPFC Supporter App",
@@ -120,7 +135,7 @@ const PROJECTS = {
     },
     image: "/images/projects/tammy-taylor.png",
     summary:
-      "The ecommerce portal and mobile app for Tammy Taylor Nails South Africa, an international beauty salon chain.",
+      "The e-commerce portal and mobile app for Tammy Taylor Nails South Africa, an international beauty salon chain.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   clickr: {
@@ -166,7 +181,7 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/nucleo.png",
-    summary: "The ecommerce web platform and mobile for Nucleo Superfood.",
+    summary: "The e-commerce web platform and mobile for Nucleo Superfood.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "harrys-butchery": {
@@ -180,7 +195,7 @@ const PROJECTS = {
       web: "",
     },
     image: "/images/projects/harry.jpg",
-    summary: "The ecommerce web platform and mobile app for Harry's Butchery.",
+    summary: "The e-commerce web platform and mobile app for Harry's Butchery.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "ntek-college": {
@@ -212,7 +227,7 @@ const PROJECTS = {
     },
     image: "/images/projects/tekkie-tax.gif",
     summary:
-      "The ecommerce web portal and mobile app for Tekkie Tax, a South African national fundraising campaign for 250+ local welfare organisations.",
+      "The e-commerce web portal and mobile app for Tekkie Tax, a South African national fundraising campaign for 250+ local welfare organisations.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   cafe2go: {
@@ -243,7 +258,7 @@ const PROJECTS = {
     },
     image: "/images/projects/rooibos.png",
     summary:
-      "The ecommerce web platform and mobile app for Rooibos on Call, an independent consultant of Annique health and beauty products.",
+      "The e-commerce web platform and mobile app for Rooibos on Call, an independent consultant of Annique health and beauty products.",
     info: "An independent consultant of Annique is selling Rooibos items directly to the public. Now you can have all the necessary information right at your fingertips anywhere, anytime online.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
@@ -290,7 +305,7 @@ const PROJECTS = {
     },
     image: "/images/projects/optiphi.png",
     summary:
-      "The ecommerce web platform and mobile app for Optiphi, a global supplier of skincare products.",
+      "The e-commerce web platform and mobile app for Optiphi, a global supplier of skincare products.",
     technologies: ["React Native", "PHP", "Yii", "PostgreSQL", "AWS", "Redis"],
   },
   "fisika-js": {
@@ -366,7 +381,7 @@ const PROJECTS = {
     },
     image: "/images/projects/portfolio.png",
     summary: "My Personal Development Portfolio (this website).",
-    technologies: ["Next.js", "React", "Vercel"],
+    technologies: ["Next.js.js", "React", "Vercel"],
   },
   // "robin-dood-server": {
   //   name: "Robin Dood Server",

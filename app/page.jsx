@@ -32,9 +32,9 @@ export default function Home() {
       <h2>Major Recent Projects</h2>
       <ProjectList
         projects={[
-          PROJECTS["opfc"],
+          PROJECTS["first-table"],
           PROJECTS["leatt"],
-          PROJECTS["secure-legacy"],
+          PROJECTS["opfc"],
         ]}
       />
       <Link href="/projects" className={styles.viewAll}>View all projects</Link>
